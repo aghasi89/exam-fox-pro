@@ -1,0 +1,43 @@
+h2, p, span {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 24px;
+}
+
+.image {
+    width: 350px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.item-wrapper {
+    display: flex;
+    height: 150px;
+    width: 318px;
+    background-color: #F28C28;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.text {
+    display: flex;
+
+    margin-bottom: 30px;
+}
+
+
+.discription {
+    font-weight: 500;
+}
