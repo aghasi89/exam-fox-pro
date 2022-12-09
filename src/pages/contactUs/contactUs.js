@@ -8,7 +8,7 @@ export const ContactUs = () => {
         <div className="wrapper">
             <div>
                 <div className="item-wrapper">
-                    <h2 className="title">FILEX </h2>
+                    <h2 className="title">FILEX</h2>
                     <div className="text">
                         <p className="discription">I just wanted to sincerely thank you for the opportunity to represent
                             Precision Nutrition
