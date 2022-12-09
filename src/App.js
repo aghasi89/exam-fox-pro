@@ -4,7 +4,8 @@ import './App.css';
 import FirstImage from './images/banner2.jpg';
 import Button from './components/Button/Button'
 import SimpleSlider from "./slider/slider";
-
+import {ContactUs} from './pages/contactUs/contactUs';
+import {Footer} from './pages/contactUs/footer';
 
 
 function App() {
@@ -31,5 +32,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

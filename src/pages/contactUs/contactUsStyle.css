@@ -7,6 +7,7 @@ h2, p, span {
     justify-content: space-around;
     background-color: grey;
     padding: 24px;
+    height: 100%;
 }
 
 .image {
@@ -40,4 +41,37 @@ h2, p, span {
 
 .discription {
     font-weight: 500;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    background-color: white;
+    margin-top: -40px;
+    padding: 30px;
+}
+
+.input-style{
+    height: 40px;
+    border-bottom: 2px solid black;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.input-style:hover{
+    border-bottom: 2px solid #F28C28;
+
+}
+
+.btn-styles{
+    width: 150px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin: 0 auto;
+    cursor: pointer;
 }
