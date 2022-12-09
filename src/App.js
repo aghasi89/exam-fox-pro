@@ -1,15 +1,15 @@
 import './App.css';
-import { ContactUs } from './pages/contactUs/contactUs';
+import {ContactUs} from './pages/contactUs/contactUs';
 import {Footer} from './pages/contactUs/footer';
 
 
 function App() {
-  return (
-    <div>
-     <ContactUs/>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div style={{background:'grey'}}>
+            <ContactUs/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
